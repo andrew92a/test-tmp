@@ -1,0 +1,29 @@
+include ../_components/_components
+
+block vars
+
+doctype
+
+html
+    head
+        meta(charset='utf-8')
+        title Angular Skeleton App
+        meta(name='description', content='')
+        meta(property='og:description', content='')
+        meta(name='apple-mobile-web-app-capable', content='yes')
+        meta(name='mobile-web-app-capable', content='yes')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+
+        //- Base href is required if you want to use ng in html5 mode
+        base(href='/')
+
+        link(rel='shortcut icon', href='/images/favicon.ico', type='image/x-icon')
+        link(rel='icon', href='/images/favicon.ico', type='image/x-icon')
+
+        block styles
+            link(rel='stylesheet', href='css/main.css')
+    body
+        block body
+
+        block scripts
+            script(src="scripts/vendor/require.js", data-main="scripts/main")

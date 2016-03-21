@@ -1,0 +1,13 @@
+.sidebar {
+  height: 100%;
+  display: table-cell;
+  width: 260px;
+  background-color: #21252f;
+  color: #cfcfcf;
+  text-align:center;
+  vertical-align: top;
+
+  & > .content {
+    padding-top: 20px;
+  }
+}

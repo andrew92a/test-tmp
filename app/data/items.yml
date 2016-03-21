@@ -1,0 +1,8 @@
+
+# Here you can create files that will be compiled to json,
+# they are used to simulate the response of fake request.
+
+items:
+  -
+    title: Contents dynamicly created
+    body: If you see this text that means you successfull install this skeleton Angular App

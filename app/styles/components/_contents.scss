@@ -1,0 +1,16 @@
+.component-contents {
+
+  & .custom-text {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  & > ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    & > li:nth-child(2n+1) {
+    color: #404447;
+    }
+  }
+}

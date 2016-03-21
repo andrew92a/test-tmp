@@ -1,0 +1,17 @@
+extends _shared/master
+
+block body
+    .wrapper
+
+        //- you can also use static components
+        //- +sidebar()
+
+        .content(ng-controller='MainController as main')
+
+            div
+                img(ng-src='{{ app.logo }}')
+                div
+                    | {{ title }}
+
+            contents(title="main.title")
+                | Loading application....

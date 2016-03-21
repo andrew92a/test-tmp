@@ -1,0 +1,12 @@
+div
+    | {{ $ctrl.title }}
+
+div.component-contents
+    ul
+        li(ng-repeat="item in items")
+            div.custom-text
+                div
+                    strong
+                        | {{ item.title }}
+                div
+                    | {{ item.body }}
